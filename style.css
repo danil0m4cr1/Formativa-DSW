@@ -2,4 +2,115 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kanit';
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem 0.56rem 2rem;
+    font-size: 1.1rem;
+    position: sticky;
+    z-index: 1;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h3 {
+    padding-left: 0.7rem;
+    color: white;
+}
+
+.logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -0.56rem;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+.nav-list {
+    text-decoration: none;
+    color: white;
+}
+
+.button-sub {
+    border: 0;
+    background-color: dodgerblue;
+    color: white;
+    margin-top: -0.5rem;
+    border-radius: 5px;
+    padding: 0.7rem;
+    box-shadow: 3px 3px 8px 0 black;
+}
+
+.button-sub:hover {
+    cursor: pointer;
+}
+
+.section-initial img {
+    height: 100%;
+    z-index: -9;
+    position: absolute;
+    top: 0;
+    opacity: 0.94;
+}
+
+.section-welcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 16rem;
+}
+
+.section-initial h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.section-initial p {
+    margin-top: 3rem;
+    font-size: 21px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.button-s1 {
+    padding: 0.55rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    box-shadow: 3px 3px 8px 0 black;
+}
+
+.section-button1 {
+    background-color: rgba(1, 1, 1, 0.2);
+    border: 1px white solid;
+}
+
+.section-button2 {
+    background-color: dodgerblue;
+}
+
+.button-s1:hover {
+    cursor: pointer;
 }
